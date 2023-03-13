@@ -1,0 +1,454 @@
+/* //////////////////////Here///////////////////////// */
+
+/* PSD Name : Focal Resume
+
+Table of contant
+1. Navbar (id= navbar)
+2. Banner (id= ban-sec)
+3. About  (id= ab)
+4. Skill  (id= skill)
+5. Resume (id= resume)
+6. Educate(class= edu)
+7. Edu_work(class= edu work)
+8. Tag    (id= tag)
+9. Protfolio(id= protfolio)
+10.Contact(id= contact) */
+
+/* //////////////////////Here///////////////////////// */
+/* common css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.holder{
+    width: 1200px;
+    margin: auto;
+}
+img{
+    display: block;
+    /* width: 100%; */
+}
+ul{
+    list-style-type: none;
+}
+.t-style{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+h4{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #566366;
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #566366;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+h1, h2, h3, h4, h5, h6,
+p, 
+i {
+    margin: 0;
+}
+/* common css ends  */
+/* menu style starts here  */
+nav{
+    background: #252d2f;
+}
+nav .holder{
+    background: #252d2f;
+}
+nav .nav-link{
+    color: #fff;
+}
+nav .holder .menu ul li:hover >a{
+    color: #2ecc71;
+}
+/* menu style ends here  */
+/* banner style starts here  */
+.banner{
+    background: url(../image/ban.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 1000px;
+    
+}
+.banner .b-text{
+    text-align: center;
+    line-height: 99px;
+}
+.banner .b-text h1{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    display: inline;
+}
+.banner .b-text a{
+    color: #fff; 
+    padding: 20px 34px;
+    border: solid 2px #fff;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: .5s;
+}
+.banner .b-text a:hover{
+    color: black;
+    background: #f2f2f1;
+}
+.ban-sec .t-style{
+    display: flex;
+}
+.ban-sec .t-style .ban-text{
+    color: #566366;
+}
+.ban-sec .t-style .ban-text h2{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-bottom: 50px;
+}
+.ban-sec .t-style .ban-text p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: none
+}
+.ban-sec .container{
+    padding: 100px 0;
+}
+/* banner style ends here  */
+/* about style starts here  */
+.about{
+    display: flex;
+}
+#ab .container h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #566366;
+}
+#ab .container p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #566366;
+    /* padding-bottom: 48px; */
+}
+
+.about .ab-pic{
+    /* background: url(../image/ab-pic\ \(1\).jpg); */
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+.about .holder{
+    width: 999px;
+    background: #f2f2f1;
+}
+.row {
+	--bs-gutter-x: 0;
+	--bs-gutter-y: 0;
+}
+.about .ab-child .child{
+    padding: 0 32px 38px 0;
+    
+} 
+.about .row .ab-child .child i{
+   font-size: 30px;
+   color: #2dcb71;
+}
+.about .row .ab-child .child_info{
+    padding-left: 25px;
+
+}
+.about .row .ab-child .child h4{
+    padding-bottom:container
+}
+.about .row .ab-child .child p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #566366;
+}
+
+/* about style ends here  */
+#skill .row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px 0;
+}
+#skill .row .t-style{
+    color: #566366;
+    /* width: 50%; */
+    /* padding-right: 90px; */
+}
+
+#skill .row .skil-tx p{
+    padding-bottom: 50px;
+}
+#skill .row .skil-tx a{
+    color: #2dcb71; 
+    padding: 20px 34px;
+    border: solid 2px #2dcb71;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: .5s;
+}
+#skill .row .skil-tx a:hover{
+    border: solid 2px #f2f2f1;
+    background: #2dcb71;
+    color: #f2f2f1;
+}
+#skill .row .skil-tx h4{
+    padding-bottom: 45px;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+.bar{
+    width: 100%;
+    height: 30px;
+    background: #f2f2f1;
+}
+.bar-l{
+    width: 90%;
+    height: 30px;
+    background: #2ecc71;
+}
+.b-8{
+    width: 80%;
+}
+.b-7{
+    width: 70%;
+}
+.skil-bar h4{
+    color: #566366;
+    padding-bottom: 20px;
+}
+.bar-l p{
+    width: 100%;
+    justify-content: flex-end;
+    display: flex;
+    color: #fff;
+    padding-right: 10px;
+    font-size: 16px;
+}
+.skil-bar .s-ban{
+    padding: 20px 0;
+}
+/* resume style start here  */
+#resume{
+    background: #f2f2f1;
+    padding: 100px 70px;
+}
+#resume .container{
+    text-align: center;
+}
+#resume .container{
+    font-size: 30px;
+}
+#resume h4{
+    font-size: 30px;
+}
+#resume p{
+    padding: 45px 0;
+    font-size: 16px;
+}
+#resume a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #2dcb71;
+    padding: 20px;
+    border: 2px solid #2dcb71;
+    transition: .5s;
+}
+#resume a:hover{
+    color: #f2f2f1;
+    background: #2dcb71;
+}
+/* resume style ends here  */
+/* edu style starts here  */
+.edu .container{
+    padding-top: 100px;
+    border-bottom: 1px solid #566366;
+}
+.edu .container .edu-info h4{
+    font-size: 29px;
+}
+.edu .container .edu-info p{
+    /* width: 539px; */
+    padding: 50px 0;
+}
+.edu .container .edu-det{
+    margin-top: 70px;
+}
+.edu .container .edu-det div{
+    padding-bottom: 70px;
+}
+.edu .container .edu-det h4{
+    font-size: 22px;
+}
+.edu .container .edu-det .gpa{
+    font-size: 14px;
+    display: inline-block;
+    font-weight: 700;
+    padding: 2px 5px;
+    background: #2dcb71;
+    margin: 14px 0;
+}
+/* edu style ends here  */
+/* work style starts here  */
+    .work .container{
+        border: none;
+    }
+/* work style ends here  */
+/* jhon style start here  */
+#tag{
+    padding: 100px 0;
+    background: #f2f2f1;
+}
+#tag .container{
+    text-align: center;
+}
+#tag .container div{
+    margin: auto;
+}
+#tag .container div h4{
+    font-size: 18px;
+}
+/* Portfolio style starts here  */
+#portfolio .container{
+    padding: 100px;
+}
+#portfolio .por-tx{
+    text-align: center;
+}
+#portfolio .por-tx h4{
+    padding-bottom: 20px;
+}
+#portfolio .por-tx p{
+    padding-bottom: 77px;
+}  
+#portfolio .por-img .imag{
+    position: relative;
+    padding: 20px;
+}
+#portfolio .por-img .imag .over{
+    position: absolute;
+    inset: 20px;
+    background: rgba(51, 170, 106, .75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: .7s;
+}
+#portfolio .por-img .imag .photo{
+    width: 100%;
+    height: 100%;
+}
+#portfolio .por-img .imag:hover .over{
+    opacity: 1;
+    visibility: visible;
+
+}
+#contact{
+    background: #252d2f;
+    padding: 100px 0;
+}
+#contact h4{
+    color: #f2f2f1;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 45px;
+}
+#contact p{
+    color: #f2f2f1;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 35px;
+}
+#contact address{
+    color: #f2f2f1;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+#contact .ex{
+    color: #f2f2f1;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 0;
+}
+#contact .con_label p{
+    margin-bottom: 20px 0; 
+}
+#contact .con_label{
+    color: #f2f2f1;
+}
+#contact form input{
+    background: #566366;
+    outline: none;
+    border: none;
+    /* height: 55px; */
+    padding: 10px;
+}
+#contact form textarea{
+    height: 280px;
+    background: #566366;
+    outline: none;
+    border: none;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+#contact .con_me{
+    margin: 15px 0;
+    padding: 15px 10px;
+    color: #f2f2f1;
+    background: #566366;
+    transition: .5s;
+}
+#contact .con_me:hover{
+    color: #f2f2f1;
+    background: #2dcb71;
+}
+/* contact style ends here  */
+
+/* footer style starts here  */
+#footer{
+    background: #566366;
+    color: #252d2f;
+}
+#footer p{
+    color: #252d2f;
+}
+#footer i{
+    font-size: 20px;
+    transition: .5s;
+}
+#footer i:hover{
+    color: #f2f2f1;
+    cursor: pointer;
+}

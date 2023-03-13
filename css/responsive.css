@@ -1,0 +1,377 @@
+/* xxl device */
+@media (min-width:1400px) {
+
+}
+/* xl device */
+@media (min-width:1200px) and (max-width:1399.98px) {
+
+}
+/* lg device  */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .banner {
+        height: 700px;
+    }
+    .ban-sec .t-style .ban-text h2 {
+        font-size: 28px;
+        padding-bottom: 25px;
+    }
+    .ban-sec .t-style .ban-text p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 30px;
+        text-transform: none;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .about .row .ab-child .child i {
+        font-size: 20px;
+    }
+    #skill .row .skil-tx h4 {
+        padding-bottom: 25px;
+    }
+    p {
+        font-size: 14px;
+    }
+    #skill .row .skil-tx a {
+        padding: 15px 25px;
+        font-size: 16px;
+    }
+    #skill .row {
+        padding: 80px 0;
+    }
+    #resume {
+        padding: 80px 60px;
+    }
+    #resume a {
+        padding: 15px 25px;
+        font-size: 16px;
+    }
+    h4 {
+        font-size: 26px !important;
+    }
+    .edu .container .edu-info p {
+        padding: 25px 10px 25px 0;
+    }
+    .edu .container .edu-det div {
+        padding-bottom: 40px;
+    }
+    .edu .container {
+        padding-top: 70px;
+    }
+    #tag {
+        padding: 50px 0;
+    }
+    #portfolio .container {
+        padding: 60px;
+    }
+}
+/* md device */
+@media (min-width:768px) and (max-width:991.98px) {
+    .banner {
+        height: 600px;
+    }
+    .banner .b-text h1 {
+        font-size: 40px;
+    }
+    .banner .b-text a {
+        padding: 10px 15px;
+    }
+    .ban-sec .t-style .ban-text p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .ban-sec .t-style .ban-text h2 {
+        padding-bottom: 20px;
+    }
+    p {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 22px;
+        color: #566366;
+    }
+    h4 {
+        font-size: 12px !important;
+    }
+    .about .row .ab-child .child i {
+        font-size: 23px;
+    }
+    #ab .container p {
+        font-size: 14px;
+    }
+    .about .ab-child .child {
+        padding: 0 38px 38px 0;
+    }
+    #skill .row .skil-tx h4 {
+        padding-bottom: 27px;
+        font-size: 30px!important;
+    }
+    .bar {
+        height: 20px;
+    }
+    .bar-l {
+        height: 20px;
+    }
+    #skill .row .skil-tx a {
+        padding: 15px 20px;
+    }
+    .ban-sec .t-style .ban-text h2 {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        padding-bottom: 10px;
+    }
+    .about .ab-child .child {
+        padding: 0 20px 20px 0;
+    }
+    #ab .container p {
+        font-size: 12px;
+    }
+    .skil-bar .s-ban {
+        padding: 13px 0;
+    }
+    p {
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 22px;
+        color: #566366;
+    }
+    .skil-bar h4 {
+        color: #566366;
+        padding-bottom: 10px;
+    }
+    .bar {
+        height: 13px;
+    }
+    .bar-l {
+        height: 13px;
+    }
+    p {
+        font-size: 18px;
+        font-weight: 400;
+        /* line-height: 30px; */
+        color: #566366;
+    }
+    #skill .row .skil-tx a {
+        font-size: 13px;
+    }
+    #resume {
+        background: #f2f2f1;
+        padding: 70px 50px;
+    }
+    #resume a {
+        font-size: 13px;
+    }
+    .edu .container .edu-info h4 {
+        font-size: 25px!important;
+    }
+    h4 {
+        font-size: 17px !important;
+    }
+    .edu .container .edu-info p {
+        /* width: 539px; */
+        padding: 20px 0;
+    }
+    .edu .container .edu-det div {
+        padding-bottom: 35px;
+    }
+    p {
+        font-size: 13px;
+    }
+    #portfolio .por-img .imag {
+        padding: 10px;
+    }
+    #portfolio .container {
+        padding: 80px;
+    }
+    #portfolio .por-tx p {
+        padding-bottom: 45px;
+    }
+    #portfolio .por-img .imag .over {
+        inset: 10px;
+    }
+    #contact .con-form{
+        padding: 10px 0 !important;
+    }
+    #contact .con_btn{
+        display: flex;
+        justify-content: center;
+    }
+    #contact label p {
+        padding: 25px 0;
+    }
+}
+/* sm device */
+@media (min-width:576px) and (max-width:767.98px) { 
+    .banner {
+        height: 350px;
+    }
+    .banner .b-text h1 {
+        font-size: 37px;
+    }
+    .banner .b-text a {
+        padding: 10px 13px;
+        font-size: 13px;
+    }
+    .ban-sec .t-style .ban-text h2 {
+        font-size: 25px;
+        line-height: 10px;
+        padding: 20px 0;
+    }
+    .ban-sec .container {
+        padding: 0;
+    }
+    .ban-sec .t-style .ban-text p {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20px;
+        text-transform: none;
+    }
+    .about .ab-child .child {
+        padding: 0;
+    }
+
+    #ab .container p {
+        font-size: 13px;
+        font-weight: 400;
+        color: #566366;
+        /* padding-bottom: 48px; */
+    }
+    #skill .row .skil-tx a {
+        color: #2dcb71;
+        padding: 11px 18px;
+        border: solid 2px #2dcb71;
+        font-size: 15px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    .bar {
+        width: 100%;
+        height: 20px;
+        background: #f2f2f1;
+    }
+    .bar-l {
+        height: 20px;
+    }
+    p {
+        font-size: 18px;
+        font-weight: 400;
+        /* line-height: 30px; */
+        color: #566366;
+    }
+    .about .row .ab-child .child p {
+        font-size: 12px;
+    }
+    h4 {
+        font-size: 17px;
+    }
+    .edu .container .edu-info p {
+        padding: 15px 0;
+    }
+    #skill .row {
+        padding: 40px 0;
+    }
+    #skill .row .skil-tx h4 {
+        padding-bottom: 15px;
+    }
+    #resume {
+        background: #f2f2f1;
+        padding: 43px 23px;
+    }
+    #resume a {
+        font-size: 13px;
+        font-weight: 700;
+        color: #2dcb71;
+        padding: 14px;
+        border: 2px solid #2dcb71;
+    }
+    .edu .container .edu-det h4 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 12px;
+        font-weight: 400;
+        /* line-height: 30px; */
+        color: #566366;
+    }
+    .edu .container .edu-det .gpa {
+        margin: 0 0;
+    }
+    p {
+        line-height: 25px !important;
+    }
+    .edu .container .edu-det div {
+        padding-bottom: 28px;
+    }
+    .edu .container {
+        padding-top: 35px;
+    }
+    .edu .container .edu-det {
+        margin-top: 10px;
+    }
+    #tag {
+        padding: 50px 0;
+    }
+    #portfolio .container {
+        padding: 50px 30px;
+    }
+    #portfolio .por-tx p {
+        padding-bottom: 27px;
+    }
+    #contact .con-form{
+        padding: 10px 0 !important;
+    }
+    #contact .con_btn{
+        display: flex;
+        justify-content: center;
+    }
+    #contact label p {
+        padding: 25px 0;
+    }
+}
+/* xs device */
+@media (max-width:575.98px) {
+    .banner {
+        height: 450px;
+    }
+    .banner .b-text h1 {
+        font-size: 42px;
+        font-weight: 700;
+    }
+    .banner .b-text a {
+        padding: 15px 24px;
+        font-size: 13px;
+    }
+    .ban-sec .t-style .ban-text h2 {
+        padding-bottom: 26px;
+    }
+    .ban-sec .t-style .ban-text {
+        color: #566366;
+        margin-bottom: 38px;
+    }
+    #skill .row .t-style {
+        color: #566366;
+        /* width: 50%; */
+        padding-right: 12x;
+    }
+    .edu .container .edu-info h4 {
+	font-size: 29px;
+	text-align: center;
+    }
+    #resume {
+        padding: 40px 40px;
+    }
+    .edu .container {
+        padding-top: 40px;
+    }
+    #tag {
+        padding: 43px 0;
+    }
+    #portfolio .container {
+        padding: 59px;
+    }
+}
